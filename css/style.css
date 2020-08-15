@@ -267,12 +267,14 @@ h3.heading {
    box-shadow: 0 0 .2rem rgba(0, 0, 0, .25);
 }
 
+
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
 /*--- Team Light Background Image --*/
 .fixed-light {
    background-image: url('../img/fixed/office.jpg');
    position: fixed;
+   align-items: center;
    height: 100%;
    width: 100%;
    background-size: cover;
@@ -326,6 +328,13 @@ ul.social li a {
 ul.social li a:hover {
    color: #505962;
 }
+
+#team11{
+   margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
 
 /*============= SKILLS SECTION =============*/
 
@@ -422,6 +431,8 @@ a.top-scroll:hover {
    font-size: 3rem;
    height: 1.7rem;
 }
+
+
 
 /*============= MEDIA QUERIES =============*/
 
