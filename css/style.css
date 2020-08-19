@@ -14,6 +14,14 @@ html, body {
    color: #1EBBA3;
 }
 
+.logoC{
+   
+   color: ivory;
+}
+
+.noitfication{
+   color: red;
+}
 /*--- Nav Scrolling Offset --*/
 .offset:before {
    content: "";
@@ -28,11 +36,13 @@ html, body {
 }
 
 /*============= NAVIGATION =============*/
-.navbar-brand img {
-   height: 2rem;
+.navbar-brand {
+   padding: 25px;
+   height: 5rem;
 }
 .navbar {
-   padding: .7rem 1rem;
+   /*padding: .7rem 1rem;*/
+   padding: 0px;
    text-transform: uppercase;
    font-weight: 700;
    letter-spacing: .1rem;
@@ -203,7 +213,7 @@ h3.heading {
    z-index: -9999;
 }
 .fixed-dark {
-   background-image: url('../img/fixed/apple.jpg');
+   background-image: url('../img/fixed/bg2.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
@@ -234,6 +244,10 @@ h3.heading {
 }
 
 /*============= PRICING SECTION =============*/
+
+.offer{
+   display: inline;
+}
 
 .pricing-column {
    background-color: white;
@@ -503,6 +517,11 @@ a.top-scroll:hover {
       padding: .4rem .9rem;
       font-size: .9rem;
    }
+}
+
+.lead{
+   text-justify: autcentero;
+   justify-content: center;
 }
 
 

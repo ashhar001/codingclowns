@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Coding Clowns</title>
+	<link rel="stylesheet" href="path/to/font-mfizz/font-mfizz.css" >
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -37,7 +38,9 @@
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg fixed-top">
 			<div class="container-fluid">
-				<a href="#home" class="navbar-brand"><img src="img/nuno.png" alt=""></a>
+				<a href="#home" class="navbar-brand logo">
+					<h3 class="font-weight-bold os-animation logoC" data-animation="fadeInUp" data-delay=".6s">Coding <span class="text-nuno">Clowns</span></h3><br>	
+				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 					<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
 				</button>
@@ -48,7 +51,7 @@
 							<a href="#home" class="nav-link">Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="#courses" class="nav-link">Courses</a>
+							<a href="#features" class="nav-link">Courses</a>
 						</li>
 						<li class="nav-item">
 							<a href="#careertrack" class="nav-link">Career Tracks</a>
@@ -62,9 +65,13 @@
 						<li class="nav-item">
 							<a href="#skills" class="nav-link">Features</a>
 						</li>
+						
+						<!--
 						<li class="nav-item">
 							<a href="#clients" class="nav-link">Little Clown</a>
 						</li>
+						-->
+
 						<li class="nav-item">
 							<a href="#contact" class="nav-link">Contact</a>
 						</li>
@@ -123,7 +130,7 @@
 		<!-- Start Jumbotron -->
 		<div class="jumbotron m-0 py-5">
 
-			<div class="col-12 os-animation" data-animation="fadeInUp" id="courses">
+			<div class="col-12 os-animation" data-animation="fadeInUp" id="features">
 				<h3 class="heading">Courses Offered</h3>
 				<div class="heading-underline"></div>
 			</div>
@@ -135,7 +142,7 @@
 						<div class="feature px-2">
 							<span class="fa-stack fa-2x">
 								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
+								<i class="fab fa-cuttlefish fa-stack-1x fa-inverse"></i>
 							</span>
 							<h3>C++ Foundation</h3>
 							<p class="lead">Understand the fundamentals of C++ in the most simplified way. From writing your first line of code in C++ to building the structure of programmes. This course gives practical exposure to students by helping them learn the concepts through active problem-solving.</p>
@@ -146,7 +153,7 @@
 						<div class="feature px-2">
 							<span class="fa-stack fa-2x">
 								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fas fa-desktop fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
+								<i class="fab fa-java fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
 							</span>
 							<h3>JAVA Foundation</h3>
 							<p class="lead">Understand the fundamentals of JAVA in the most simplified way. From writing your first line of code in JAVA to building the structure of programmes. This course gives practical exposure to students by helping them learn the concepts through active problem-solving.</p>
@@ -157,7 +164,7 @@
 						<div class="feature px-2">
 							<span class="fa-stack fa-2x">
 								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fas fa-play fa-stack-1x fa-inverse" data-fa-transform="shrink-3.5 right-1"></i>
+								<i class="fab fa-python fa-stack-1x fa-inverse" data-fa-transform="shrink-3.5 right-1"></i>
 							</span>
 							<h3>PYTHON Foundation</h3>
 							<p class="lead">Understand the fundamentals of PYTHON in the most simplified way. From writing your first line of code in PYTHON to building the structure of programmes. This course gives practical exposure to students by helping them learn the concepts through active problem-solving.</p>
@@ -168,7 +175,7 @@
 						<div class="feature px-2">
 							<span class="fa-stack fa-2x">
 								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fas fa-angle-double-down fa-stack-1x fa-inverse"></i>
+								<i class="fas fa-code fa-stack-1x fa-inverse"></i>
 							</span>
 							<h3>Data structures Using C++ and JAVA</h3>
 							<p class="lead">With this complete course, you will become an expert in the core fundamentals of programming, DSA. Learn to design efficient algorithms and become ready for future best jobs in the industry.</p>
@@ -216,27 +223,34 @@
 					<h3>Competitive Programming Career Track</h3>
 					<div class="feature py-2">
 						<span class="fa-layers fa-3x">
-							<i class="fab fa-html5"></i>
+							<i class="fas fa-laptop-code"></i>
 						</span>
 					</div>
 					<p class="lead">Want to be a Competitive Programmer but don't even know how to code? Beginners can start from basics and become a Competitive Programmer. This course can help you take your programming skills to the next level and become proficient to participate in programming competitions</p>
 				</div>
 
 				<div class="col-md-4 os-animation" data-animation="fadeInUp">
-					<h3>Data Science Career Track</h3>
+					<h3>Machine Learning Career Track</h3>
 					<div class="feature py-2">
 						<span class="fa-layers fa-3x">
-							<i class="fab fa-bootstrap"></i>
+							<i class="fas fa-chart-bar"></i>
 						</span>
 					</div>
-					<p class="lead">A Data Scientist combines statistical and machine learning techniques with Python programming to analyse and interpret complex data. The course will revolve around the concepts of Python, Machine Learning, Data Cleaning and Data Analysis. The course will make you capable and expert of drawing conclusions from the data and taking the strategic decisions for the business.</p>
+					<p class="lead">From this course you will learn machine learning techniques with Python programming to analyse and interpret complex data. The course will revolve around the concepts of Python, Machine Learning, Data Cleaning and Data Analysis. The course will make you capable and expert of drawing conclusions from the data and taking the strategic decisions for the business.</p>
 				</div>
 
 				<div class="col-md-4 os-animation" data-animation="fadeInRight">
 					<h3>Frontend Web Development Career Track</h3>
 					<div class="feature py-2">
 						<span class="fa-layers fa-3x">
+							<i class="fab fa-html5"></i>
+						</span>
+						<span class="fa-layers fa-3x">
 							<i class="fab fa-css3-alt"></i>
+						</span>
+						<span class="fa-layers fa-3x">
+							
+							<i class="fab fa-bootstrap"></i>
 						</span>
 					</div>
 					<p class="lead">The goal of our Web Development career track is to transform you into a professional developer.  This course will cover all the necessary concepts and technologies that is used to become a web developer</p>
@@ -267,70 +281,70 @@
 
 				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft" data-delay=".2s">
 					<div class="portfolio-item overflow-hidden">
-						<a href="img/portfolio/1.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
-							<img src="img/portfolio/1.jpg" alt="" class="example-image w-100">
+						<a href="img/portfolio/p1.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/p1.jpg" alt="" class="example-image w-100">
 						</a>
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft">
 					<div class="portfolio-item overflow-hidden">
-						<a href="img/portfolio/2.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
-							<img src="img/portfolio/2.jpg" alt="" class="example-image w-100">
+						<a href="img/portfolio/p2.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/p2.jpg" alt="" class="example-image w-100">
 						</a>
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight">
 					<div class="portfolio-item overflow-hidden">
-						<a href="img/portfolio/3.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
-							<img src="img/portfolio/3.jpg" alt="" class="example-image w-100">
+						<a href="img/portfolio/p3.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/p3.jpg" alt="" class="example-image w-100">
 						</a>
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight" data-delay=".2s">
 					<div class="portfolio-item overflow-hidden">
-						<a href="img/portfolio/4.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
-							<img src="img/portfolio/4.jpg" alt="" class="example-image w-100">
+						<a href="img/portfolio/p4.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/p4.jpg" alt="" class="example-image w-100">
 						</a>
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft" data-delay=".2s">
 					<div class="portfolio-item overflow-hidden">
-						<a href="img/portfolio/5.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
-							<img src="img/portfolio/5.jpg" alt="" class="example-image w-100">
+						<a href="img/portfolio/p5.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/p5.jpg" alt="" class="example-image w-100">
 						</a>
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft">
 					<div class="portfolio-item overflow-hidden">
-						<a href="img/portfolio/6.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
-							<img src="img/portfolio/6.jpg" alt="" class="example-image w-100">
+						<a href="img/portfolio/p6.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/p6.jpg" alt="" class="example-image w-100">
 						</a>
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight">
 					<div class="portfolio-item overflow-hidden">
-						<a href="img/portfolio/7.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
-							<img src="img/portfolio/7.jpg" alt="" class="example-image w-100">
+						<a href="img/portfolio/p7.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/p7.jpg" alt="" class="example-image w-100">
 						</a>
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight" data-delay=".2s">
 					<div class="portfolio-item overflow-hidden">
-						<a href="img/portfolio/8.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
-							<img src="img/portfolio/8.jpg" alt="" class="example-image w-100">
+						<a href="img/portfolio/p8.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/p8.jpg" alt="" class="example-image w-100">
 						</a>
 					</div>
 				</div>
 
 				<div class="col-10 col-lg-9 col-xl-8 text-center pt-5 os-animation" data-animation="fadeInUp">
-					<p class="lead">Get in contact with us to see more of our great portfolio design work in addition to web development projects such as websites, apps and more!</p>
+					<p class="lead">Get in contact with us to see more of our skill development program and career development program!</p>
 					<a href="#contact" class="btn btn-secondary btn-sm">Get In Touch</a>
 				</div>
 
@@ -343,9 +357,15 @@
 
 	<!-- Start Pricing Section -->
 	<div id="pricing" class="offset">
-
+		
+		
 		<div class="jumbotron mb-0">
+			
 			<div class="container py-2">
+				<marquee class="noitfication">
+					<h5> Coming Soon: Machine Learning Career Track & Aptitude Preparation Course</h5>
+					<h5>Enroll for DSA Course and get C++ Foundation Course FREE	|| Enroll in a Batch of 5 student get additional 7% DISCOUNT || Enroll in a Batch of 10+ student get additional 10% DISCOUNT</h5>
+				</marquee>
 
 				<div class="os-animation" data-animation="fadeInUp">
 					<h3 class="heading">Pricing</h3>
@@ -366,7 +386,7 @@
 							
 							<h5 class="py-3"><s>Rs.4000</s></h5>
 							<h1 class="py-3">Rs.1600</h1>
-							<a href="#contact" class="btn btn-secondary btn-sm">Check Syllabus</a>
+							<a href="https://drive.google.com/file/d/1d4yYPLyLKFPFAvymBbS12qwwYJSB0yB5/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm">Check Syllabus</a>
 							<a href="https://forms.gle/63faAGcvpwXas3PZ9" target="_blank" class="btn btn-nuno btn-sm" >Enroll Now</a>
 						</div>
 					</div>
@@ -380,9 +400,10 @@
 							<h4 class="pb-2">Problems Covererd: 100+</h4>
 							<h4 class="pb-2">Assignment: 30+</h4>
 							
-							<h5 class="py-3"><s>Rs.4000</s>T&C*</h5>
+							<h5 class="py-3"><s>Rs.4000</s></h5>
+							<p>T&C*</p>
 							<h1 class="py-3">Rs.0</h1>
-							<a href="#contact" class="btn btn-secondary btn-sm">Check Syllabus</a>
+							<a href="https://drive.google.com/file/d/1qgAmDgU_pritJ_3LR1DbIUw4gvr7MBzo/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm">Check Syllabus</a>
 							<a href="https://forms.gle/63faAGcvpwXas3PZ9" target="_blank" class="btn btn-nuno btn-sm" >Enroll Now</a>
 						</div>
 					</div>
@@ -397,22 +418,22 @@
 							<h4 class="pb-2">Assignment: 30+</h4>
 							<h5 class="py-3"><s>Rs.4000</s></h5>
 							<h1 class="py-3">Rs.1600</h1>
-							<a href="#contact" class="btn btn-secondary btn-sm">Check Syllabus</a>
+							<a href="https://drive.google.com/file/d/1fQyYjclWe8BpscBqONetppggK2t8qHvz/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm">Check Syllabus</a>
 							<a href="https://forms.gle/63faAGcvpwXas3PZ9" target="_blank" class="btn btn-nuno btn-sm" >Enroll Now</a>
 						</div>
 					</div>
 
 					<div class="col-md-6 col-lg-4 os-animation" data-animation="fadeInRight">
 						<div class="pricing-column">
-							<div class="ribbon">60% Discount</div>
-							<h3 class="border-bottom py-2 mx-3">Aptitude Preparation</h3>
+							<div class="ribbon">50% Discount</div>
+							<h3 class="border-bottom py-2 mx-3">Competitive Programming Track</h3>
 							<p class="lead py-2">The Basic Plan, the best plan to get you started off.</p>
-							<h4 class="pb-2">Course Duration: 1-2 Months</h4>
-							<h4 class="pb-2">Practice Problems: 100+</h4>
-							<h4 class="pb-2">Assignment: 20+</h4>
-							<h5 class="py-3"><s>Rs.3000</s></h5>
-							<h1 class="py-3">Rs.1200</h1>
-							<a href="#contact" class="btn btn-secondary btn-sm">Check Syllabus</a>
+							<h4 class="pb-2">Course Duration: 4-5 Months</h4>
+							<h4 class="pb-2">Practice Problems: 350+</h4>
+							<h4 class="pb-2">Assignment: 45+</h4>
+							<h5 class="py-3"><s>Rs.12000</s></h5>
+							<h1 class="py-3">Rs.6000</h1>
+							<a href="https://drive.google.com/file/d/1qSM6ityNkSazIC0Rz4r39bocEjqvbchP/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm">Check Syllabus</a>
 							<a href="https://forms.gle/63faAGcvpwXas3PZ9" target="_blank" class="btn btn-nuno btn-sm" >Enroll Now</a>
 						</div>
 					</div>
@@ -427,7 +448,7 @@
 							<h4 class="pb-2">Assignment: 20+</h4>
 							<h5 class="py-3"><s>Rs.8000</s></h5>
 							<h1 class="py-3">Rs.4000</h1>
-							<a href="#contact" class="btn btn-secondary btn-sm">Check Syllabus</a>
+							<a href="https://drive.google.com/file/d/1lHnj4cVupthwMe4pK_npQFzoM4_9XW6f/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm">Check Syllabus</a>
 							<a href="https://forms.gle/63faAGcvpwXas3PZ9" target="_blank" class="btn btn-nuno btn-sm" >Enroll Now</a>
 						</div>
 					</div>
@@ -443,7 +464,7 @@
 							
 							<h5 class="py-3"><s>Rs.8000</s></h5>
 							<h1 class="py-3">Rs.3200</h1>
-							<a href="#contact" class="btn btn-secondary btn-sm">Check Syllabus</a>
+							<a href="https://drive.google.com/file/d/1tqdgBNazP5zvRCOOE8EfAHdVxVJbsKFg/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm">Check Syllabus</a>
 							<a href="https://forms.gle/63faAGcvpwXas3PZ9" target="_blank" class="btn btn-nuno btn-sm" >Enroll Now</a>
 						</div>
 					</div>
@@ -665,26 +686,29 @@
 					<div class="row py-3">
 
 						<div class="col-md-5 px-0 pr-md-3">
-							<img src="img/nuno.png" alt="">
-							<p>At our core is a collection of design and development solutions that represent everything your business needs to compete in the modern marketplace.</p>
+							<h3 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">Coding <span class="text-nuno">Clowns</span></h3><br>
+							<p>Codong Clowns is group of Professionals and Students who train and breach gaps between institutes and industries by providing a training such that students get real time experience of Industrial projects and get skills set required to get job in the IT industry.</p>
+							<p>Our mission is to continuously innovate the best ways to train the students and to transform the way tech education is delivered.</p>
+							
+						</div> <!-- End Column -->
+
+						<div class="col-md-4 px-0 pl-md-3">
 							<strong>Our Location</strong>
 							<p>71, Islampura<br>Bhiwandi, Thane 421302</p>
 							<strong>Contact Info</strong>
-							<p>+91-7767876113<br>codingclowns@gmail.com</p>
+							<p>+91-7767876113<br>
+								+91-8149223108<br>
+								codingclowns@gmail.com</p>
 							<ul class="social pt-3">
-								<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-								<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-								<li><a href=""><i class="fab fa-instagram"></i></a></li>
-								<li><a href=""><i class="fab fa-youtube-square"></i></a></li>
-								<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="https://www.facebook.com/ashar.ansari.39"><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href="https://github.com/ashhar001"><i class="fab fa-github-square"></i></a></li>
+								<li><a href="https://www.instagram.com/ashharoo1/"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/ashar-ansari-610754189/"><i class="fab fa-linkedin"></i></a></li>
 							</ul>
-						</div> <!-- End Column -->
-
-						<div class="col-md-7 px-0 pl-md-3">
-							<h3>Contact Us</h3>
-
+							
+							<!--
 							<form action="contact/contact.php" method="POST" id="contact-form">
-
+								
 								<div class="messages"></div>
 								<div class="controls">
 
@@ -702,17 +726,28 @@
 
 									<input type="submit" class="btn btn-outline-light btn-sm" value="Send Message">
 
-								</div> <!-- End Controls -->
+								</div>  End Controls -->
 							
 							</form> <!-- End Form -->
 
 						</div> <!-- End Row -->
+						<div class="col-md-2 px-0 pl-md-3">
+							<h3>Contact Us</h3>
+							<!--<input type="submit" class="btn btn-outline-light btn-sm" value="Send Message">
+							<input type="submit" href="https://forms.gle/YA48pjE3EGPm2ijE6" class="btn btn-outline-light btn-sm" target="_blank">-->
+							
+							<a href="https://forms.gle/YA48pjE3EGPm2ijE6" target="_blank" >
+								<input href="https://forms.gle/YA48pjE3EGPm2ijE6" type="submit" class="btn btn-outline-light btn-sm" value="Send Message">
+							</a>
+							
+							
+						</div>
 
 					</div> <!-- End Row -->
 				</div> <!-- End Container -->
 
 				<hr class="socket">
-				&copy; Nuno Theme.
+				&copy;  CodingClowns
 
 			</div> <!-- End Row Outer -->
 		</div> <!-- End Container Fluid -->
