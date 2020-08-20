@@ -41,7 +41,7 @@ html, body {
    height: 5rem;
 }
 .navbar {
-   /*padding: .7rem 1rem;*/
+   padding: .7rem 1rem;
    padding: 0px;
    text-transform: uppercase;
    font-weight: 700;
@@ -101,7 +101,7 @@ button, a, a.btn,
    left: 0;
 }
 .home-inner {
-   background-image: url('../img/computers.jpg');
+   background-image: url('../img/ccbg1.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
